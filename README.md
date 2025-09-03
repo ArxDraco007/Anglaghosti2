@@ -23,8 +23,3 @@ Whether you’re looking for event schedules, performance details, or live annou
 - **🎟️ Digital Resources:** Access e-passes, guidelines, and post-event recordings seamlessly.  
 
 ---
-
-## 🛠️ Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/cirs-annual-event-app.git
