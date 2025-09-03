@@ -1,0 +1,30 @@
+<!-- activity_admin_message.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/cheer">
+
+    <!-- Password EditText -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="Enter Password"
+        android:textSize="25dp"
+        android:inputType="textPassword"
+        android:minHeight="48dp"/>
+
+    <!-- Button to check password -->
+    <Button
+        android:id="@+id/buttonCheckPassword"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Check Password"
+        android:textSize="25dp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/white"
+        />
+</LinearLayout>

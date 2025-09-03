@@ -1,0 +1,54 @@
+<!-- activity_your.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FleManager"
+    android:background="@drawable/app_logsin">
+
+    <!-- Button to open CalendarActivity -->
+    <Button
+        android:id="@+id/buttonCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:text="Anglaghosti
+        Schedule"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="openCalendarActivity"
+        android:background="@drawable/gradient_button"
+        android:textSize="50dp"
+        android:textColor="@color/white"/>
+
+    <!-- Button to open FeedbackActivity -->
+    <Button
+        android:id="@+id/buttonFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:text="Feedback"
+        android:layout_below="@id/buttonCalendar"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="openFeedbackActivity"
+        android:background="@drawable/gr_green_red"
+        android:textSize="50dp"
+        android:textColor="@color/white"/>
+
+    <!-- Button to open AdminMessageActivity -->
+    <Button
+        android:id="@+id/buttonAdminMessage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:text="Admin Tools"
+        android:layout_below="@id/buttonFeedback"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="openAdminMessageActivity"
+        android:background="@drawable/neonb_lgreen"
+        android:textSize="50dp"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

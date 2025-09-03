@@ -1,0 +1,15 @@
+<!-- activity_feedback.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cheer">
+
+    <!-- Your existing views and layout -->
+
+    <!-- WebView to display Google Form -->
+    <WebView
+        android:id="@+id/webViewGoogleForm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>
